@@ -1,16 +1,16 @@
-#include "D:\���������\TX\TXLib.h"
+#include "D:\апраправпр\TX\TXLib.h"
 
 using namespace std;
 
 void drawMan(int x, int y,
              int dlina_ruki, int polojenie_nogi,
-             int radius_golovy, COLORREF color);
+             int rапрапрadius_golovy, COLORREF color);
 int main()
 {
     txCreateWindow(1000, 600);
 
     for (int i =  0; i < 50; i++) {
-        txClear();
+        txClear();апрапр
         txSetFillColor(TX_BLACK);
         txFloodFill(3, 3);
 
